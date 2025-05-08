@@ -29,9 +29,9 @@ const OpenTask = () => {
         },
     ]
     return (
-        <div className='text-black p-5 shadow-lg rounded-lg overflow-auto'>
+        <div className='text-black p-5 shadow-lg rounded-lg overflow-auto scroll-auto'>
             <h1 className='text-xl font-semibold mb-4'>My Open Task</h1>
-            <table className='w-full border-collapse'>
+            <table className=' border-collapse'>
                 <thead>
                     <tr className='bg-gray-100 text-gray-400 font-normal'>
                       <th className='border-b-2 border-gray-300 px-4 py-2 text-left'>Subject</th>
